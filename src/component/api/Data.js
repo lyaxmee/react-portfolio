@@ -6,6 +6,9 @@ import AVT2 from '../assets/lyax.jpg'
 import IMG1 from '../assets/trip.png'
 import IMG2 from '../assets/simple.png'
 import IMG3 from '../assets/street.png'
+import IMG4 from '../assets/p.png'
+import IMG5 from '../assets/c.png'
+import IMG6 from '../assets/us.png'
 
 
 
@@ -47,7 +50,28 @@ const portfolioData = [
     id: 3,
     img: IMG3,
     title: "Food site",
-    github: "https://",
+    github: "https:/waikiki.vercel.app/",
+    
+  },
+  {
+    id: 4,
+    img: IMG4,
+    title: "React Portfolio",
+    github: "https://react-portfolio-lac-two.vercel.app/",
+    
+  },
+  {
+    id: 5,
+    img: IMG5,
+    title: "Consultancy",
+    github: "https://consultancy-theta.vercel.app/",
+    
+  },
+  {
+    id: 6,
+    img: IMG6,
+    title: "GitHub User",
+    github: "https://github-user-search-ruddy.vercel.app/",
     
   },
  ]

@@ -9,7 +9,7 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           {
-            portfolioData.map(({ id, title, img, github, live }) => {
+            portfolioData?.map(({ id, title, img, github, live }) => {
               return (
                 <div key={id} className='portfolio_data'>
                   <div className="portfolio__item__image">
